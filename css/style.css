@@ -1,0 +1,129 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+
+html{
+  box-sizing: border-box;
+
+  /* 1rem = 10pixels -> 10px /16px */
+  font-size: 62.5%;
+}
+
+body{
+  
+  line-height: 1.6;
+}
+
+#form-header{
+  width: 1170px;
+  margin: 0 auto;
+
+}
+
+.btn{
+  background-color: #f67809;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#nav{
+  width: 1170px;
+  margin: 0 auto;
+  
+}
+.nav-link{
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.carousel-item{
+  height: 50rem;
+}
+
+.carousel-image-1{
+  background:url('/img/slickImage1.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
+.carousel-image-2{
+  background:url('/img/slickImage2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-3{
+  background:url('/img/slickImage3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.btn-promo{
+  background-color: lightgray;
+  color: #f67809;
+  width: 15rem;
+  font-size: 1.8rem;
+  margin-left: 50px;
+}
+
+.block-images{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  /* grid-template-rows: auto; */
+  width: 1170px;
+  margin: 0 auto;
+  
+}
+.block-images img{
+  width: 300px;
+  height: 600px;
+}
+
+.retirement-pic{
+  height: 500px;
+ 
+  background: url('/img/retirement.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom
+  
+}
+
+footer{
+  height: 200px;
+  
+}
+.left{
+  margin-top: 100px;
+}
+
+
+.left ul{
+  display: flex;
+  background-color: rgba(0, 0, 255, 0.034);
+  list-style-type: none;
+  align-content: center;
+  
+  
+}
+.left li{
+  padding: 0 25px 0 0; 
+  font-size: 1.5rem;
+  
+}
+
+li a{
+  color: #f67809;
+
+}
+
+
+
+
